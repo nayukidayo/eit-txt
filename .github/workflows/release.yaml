@@ -17,7 +17,7 @@ jobs:
         with:
           go-version: stable
 
-      - name: name: Run GoReleaser
+      - name: Run GoReleaser
         uses: goreleaser/goreleaser-action@v5
         with:
           args: release --clean
